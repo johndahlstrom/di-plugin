@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Läs premiummaterial på DI.se",
+    "description": "Klicka och läs allt premiummaterial på DI.se",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": ["adblock.js"]
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
